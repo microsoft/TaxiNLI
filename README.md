@@ -1,3 +1,12 @@
+# TaxiNLI
+
+We release TaxiNLI dataset associated with [TaxiNLI: Taking a ride up the NLU Hill](https://arxiv.org/abs/2009.14505). Essentially each row in this data corresponds to an NLI example in the MultiNLI dataset (can be identified using pairID and genre). We add 18 features, namely:
+- Linguistic: lexical, syntactic, factivity_linguistic
+- Logic: negation, boolean, quantifier, conditional, comparative, relational reasoning, spatial reasoning, temporal reasoning, causal reasoning, coreference reasoning
+- Knowledge: world_knowledge, taxonomic_knowledge
+- For Neutral Label: general_q2, subject_q2, object_q2
+
+These 18 binary features indicate whether a certain kind of reasoning capability is required to perform the inference for that example. 
 
 # Contributing
 
@@ -12,6 +21,7 @@ provided by the bot. You will only need to do this once across all repos using o
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
 
 # Legal Notices
 
