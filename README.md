@@ -13,6 +13,22 @@ Apart from that, we also have the following columns:
 
 These 18 binary features indicate whether a certain kind of reasoning capability is required to perform the inference for that example. 
 
+# Statistics
+
+Statistics | #1 |
+--- | --- |
+Total Datapoints | 10071 | 
+Overlap with MNLI | 2343 (train), 7728 (dev) | 
+Avg. Datapoints per Domain | 1006.9 | 
+Datapoints per NLI label | 3374 (C), 3201 (N), 3494 (E) | 
+Avg. Categories per example | 1.6 |
+Neutral Example Stats | 33087 (Same topic), 2843 (Same object), 877 (Same subject)|
+
+
+We also provide the statistics in the following figure grouper per category and label. 
+
+![Alt text](category_plot_split.png?raw=true "Statistics of TaxiNLI Dataset")
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
