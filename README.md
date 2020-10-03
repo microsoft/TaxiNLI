@@ -6,6 +6,11 @@ We release TaxiNLI dataset associated with [TaxiNLI: Taking a ride up the NLU Hi
 - Knowledge: world_knowledge, taxonomic_knowledge
 - For Neutral Label: general_q2, subject_q2, object_q2
 
+Apart from that, we also have the following columns:
+- Premise and hypothesis: This is the same as the MultiNLI. They are repeated for the sake of completion.
+- Label: Similar as MultiNLI
+- Annotated Label: This is the label as predicted by our annotators.
+
 These 18 binary features indicate whether a certain kind of reasoning capability is required to perform the inference for that example. 
 
 # Contributing
@@ -22,20 +27,6 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
+# License and Legal Notice
 
-# Legal Notices
-
-Microsoft and any contributors grant you a license to the Microsoft documentation and other content
-in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
-see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
-[LICENSE-CODE](LICENSE-CODE) file.
-
-Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
-may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
-The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
-
-Privacy information can be found at https://privacy.microsoft.com/en-us/
-
-Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
-or trademarks, whether by implication, estoppel or otherwise.
+We release the TaxiNLI dataset (and other data and code under https://github.com/microsoft/TaxiNLI) under the following Computational Use of Data Agreement ([LICENSE](https://github.com/microsoft/TaxiNLI/LICENSE)). By downloading this dataset and the contents, you are automatically agreeing to accept the use terms. 
