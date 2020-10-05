@@ -13,6 +13,10 @@ Apart from that, we also have the following columns:
 
 These 18 binary features indicate whether a certain kind of reasoning capability is required to perform the inference for that example. 
 
+## Files:
+1. `taxinli10k.tsv` - This is the main TaxiNLI dataset file with 10071 annotated NLI examples. 
+2. `taxinli10k_MNLIDev.tsv` - This is the part which overlaps with MultiNLI Dev dataset. We also include our Naive-Bayes, BERT and ESIM reults in the last three columns.
+
 # Statistics
 
 Statistics | #1 |
