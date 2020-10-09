@@ -17,9 +17,9 @@ These 18 binary features indicate whether a certain kind of reasoning capability
 1. `taxinli10k.tsv` - This is the main TaxiNLI dataset file with 10071 annotated NLI examples. 
 2. `taxinli10k_MNLIDev.tsv` - This is the part which overlaps with MultiNLI Dev dataset. We also include our Naive-Bayes, BERT and ESIM reults in the last three columns.
 
-# Statistics
+# TaxiNLI Statistics
 
-Statistics | #1 |
+Statistics |  |
 --- | --- |
 Total Datapoints | 10071 | 
 Overlap with MNLI | 2343 (train), 7728 (dev) | 
@@ -50,3 +50,23 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 # License and Legal Notice
 
 We release the TaxiNLI dataset (and other data and code under https://github.com/microsoft/TaxiNLI) under the following Computational Use of Data Agreement ([LICENSE](https://github.com/microsoft/TaxiNLI/LICENSE)). By downloading this dataset and the contents, you are automatically agreeing to accept the use terms. 
+
+# Contact
+
+For any questions about the work, please contact Somak Aditya (t-soadt@microsoft.com).
+
+# Citation
+
+For now, please cite:
+
+```
+@Miscellaneous{joshi2020taxinli,
+author = {Joshi, Pratik and Aditya, Somak and Sathe, Aalok and Choudhury, Monojit},
+title = {TaxiNLI: Taking a ride up the NLU Hill},
+howpublished = {ArXiv},
+year = {2020},
+month = {October},
+abstract = {Pre-trained Transformer-based neural architectures have consistently achieved state-of-the-art performance in the Natural Language Inference (NLI) task. Since NLI examples encompass a variety of linguistic, logical, and reasoning phenomena, it remains unclear as to which specific concepts are learnt by the trained systems and where they can achieve strong generalization. To investigate this question, we propose a taxonomic hierarchy of categories that are relevant for the NLI task. We introduce TAXINLI, a new dataset, that has 10k examples from the MNLI dataset (Williams et al., 2018) with these taxonomic labels. Through various experiments on TAXINLI, we observe that whereas for certain taxonomic categories SOTA neural models have achieved near perfect accuracies—a large jump over the previous models—some categories still remain difficult. Our work adds to the growing body of literature that shows the gaps in the current NLI systems and datasets through a systematic presentation and analysis of reasoning categories.},
+url = {https://www.microsoft.com/en-us/research/publication/taxinli-taking-a-ride-up-the-nlu-hill/},
+}
+```
