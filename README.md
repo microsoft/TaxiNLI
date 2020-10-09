@@ -1,5 +1,7 @@
 # TaxiNLI
 
+![Alt text](taxonomy.png?raw=true "A Taxonomy of Reasoning Capabilities")
+
 We release TaxiNLI dataset associated with [TaxiNLI: Taking a ride up the NLU Hill](https://arxiv.org/abs/2009.14505). Essentially each row in this data corresponds to an NLI example in the MultiNLI dataset (can be identified using pairID and genre). We add 18 features, namely:
 - Linguistic: lexical, syntactic, factivity
 - Logic: 
@@ -38,7 +40,7 @@ We also provide the statistics in the following figure grouper per category and 
 
 # Contact
 
-For any questions about the work, please contact Somak Aditya (t-soadt@microsoft.com).
+For any questions about the work, please contact Somak Aditya (t-soadit@microsoft.com).
 
 # Citation
 
