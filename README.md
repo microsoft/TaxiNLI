@@ -2,7 +2,7 @@
 
 ![Alt text](taxonomy.png?raw=true "A Taxonomy of Reasoning Capabilities")
 
-We release TaxiNLI dataset associated with [TaxiNLI: Taking a ride up the NLU Hill](https://www.aclweb.org/anthology/2020.conll-1.4.pdf). Essentially each row in this data corresponds to an NLI example in the MultiNLI dataset (can be identified using pairID and genre). We add 18 features, namely:
+We release TaxiNLI dataset associated with [TaxiNLI: Taking a ride up the NLU Hill](https://www.aclweb.org/anthology/2020.conll-1.4.pdf) ([CoNLL 2020 Talk](https://slideslive.com/38939466/taxinli-taking-a-ride-up-the-nlu-hill)). Essentially each row in this data corresponds to an NLI example in the MultiNLI dataset (can be identified using pairID and genre). We add 18 features, namely:
 - Linguistic: lexical, syntactic, factivity
 - Logic: 
    - negation, boolean, quantifier, conditional, comparative, 
